@@ -1,0 +1,39 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.searchDiv {
+	text-align: center;
+}
+.searchTextInput {
+	padding: 2%;
+	margin: 3%;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: 500;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	color: #a6a6a6;
+	min-width: 80%;
+	outline: none;
+}
+
+ul.searchResults {
+	display: none;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	border-top: none;
+	margin: 8%;
+	margin-top: 0px;
+	padding: 2%;
+	text-align: left;
+	list-style-type: none;
+	color: #666666;
+}
+
+ul.searchResults li {
+	display: none;
+}
+
+.highlight {
+	color: #ff6600;
+}

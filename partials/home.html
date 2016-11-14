@@ -1,0 +1,9 @@
+<div class="searchDiv">
+	<input class="searchTextInput" ng-model="searchText" type="text" placeholder="Search here..." 
+	ng-change="displaySearchResult()">
+	<ul id="searchResultsUL" class="searchResults">
+		<li ng-repeat="data in searchData | filter : searchText">
+			<span>{{data.name}}</span>
+		</li>
+	</ul>
+</div>
