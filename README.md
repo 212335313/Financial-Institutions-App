@@ -2,7 +2,8 @@
 
 To check this app -
 
-Clone this app using git clone url https://github.com/bhagyashri-t/Financial-Institutions-App.git
+Clone this app using git clone url https://github.com/bhagyashri-t/Financial-Institutions-App.git  
+After cloning, it can be checked on Apache or any other local server.
 
 Note -
 
